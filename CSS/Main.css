@@ -1,0 +1,63 @@
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F0FBFF;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
+    color: #007A94;
+    font-weight: 00;
+}
+
+h1 {
+    font-size: 47px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 47px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+h5 {
+    font-size: 23px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover;
+}
+
+.wrapper-main{
+    width: 80%;
+    margin: 0 auto;
+}
