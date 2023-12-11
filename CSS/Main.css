@@ -1,7 +1,7 @@
 
 
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -22,19 +22,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 47px;
+    font-size: 52px;
+    line-height: 80px;
+    font-weight: 700;
 }
 
 h2 {
-    font-size: 33px;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 47px;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 h4 {
-    font-size: 23px;
+    font-size: 32px;
 }
 
 h5 {
@@ -42,12 +46,18 @@ h5 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 1.rem;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.p-space {
+    padding-bottom: 1.5rem;
 }
 
 img {
@@ -61,3 +71,21 @@ img {
     width: 80%;
     margin: 0 auto;
 }
+
+/* BUTTON */
+
+button {
+    background-color: #D688E9;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.button-2 {
+    background-color: #2ECDF0;
+}
+
+/* BUTTON */

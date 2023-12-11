@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="Exhibitions" content="Take a look at all our different exhibitions.">
         <title>Exhibitions</title>
+        <link rel="stylesheet" href="CSS/Reset.css">
+        <link rel="stylesheet" href="CSS/Main.css">
+        <link rel="stylesheet" href="CSS/Nav.css">
+        <link rel="stylesheet" href="CSS/Footer.css">
+        <link rel="stylesheet" href="CSS/Upcoming-Events.css">
+
         <link rel="stylesheet" href="exhibitions.css">
         <script src="https://kit.fontawesome.com/ab8b6737a1.js" crossorigin="anonymous"></script>
     </head>
@@ -13,33 +19,131 @@
     <body>
         <header>
             <section class="section-navigation">
-                <nav>
-                    <a href="/index.html"> <img src="#" alt="Community science museum"></a>
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+                <a href="/index.html" > <img src="/images/Logo_Color.png" class="logo" alt="Community science museum"></a>
+                <nav> 
                     <ul>
                         <li>
                             <a href="/visit-us.html">Visit us</a>
                             <a href="/exhibitions.html">Exhibitions</a>
                             <a href="/contribution.html">Contributions</a>
+                            <a class="link-buytickets" href="#">CONTACT US</a>
                         </li>
                     </ul>
                 </nav>
+                
             </section>
         </header>
 
+        <section class="section-exhibitions">
+            <div class="wrapper-main exhibitions-flex">
+                <h1>Exhibitions</h1>
+            <div class="card-container">
+                <div class="vertical-card">
+                    <img class="v-card-image" src="images/celso-405219.jpg" alt="moon stages">
+                    <div class="card-content">
+                        <h2>Cosmology</h2>
+                        <p>Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky Above Us", explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators...
+                        </p>
+                        <button>Read more</button>
+                    </div>  
+                </div>
+                <div class="vertical-card">
+                    <img class="v-card-image" src="/images/skeleton-414543_1920.jpg" alt="Four skeletons showing human evolution">
+                    <div class="card-content">
+                        <h2>Evolution</h2>
+                        <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world....
+                        </p>
+                        <button>Read more</button>
+                    </div>  
+                </div>
+                <div class="vertical-card">
+                    <img class="v-card-image" src="/images/jesse-orrico-60373.jpg" alt="Transparent human skull">
+                    <div class="card-content">
+                        <h2>Biology and Medicine</h2>
+                        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.
+                            For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine ...
+                        </p>
+                        <button>Read more</button>
+                    </div>  
+                </div>
+                <div class="vertical-card">
+                    <img class="v-card-image" src="/images/andrew-ruiz-348421.jpg" alt="Person in astronaut suit sitting in a device">
+                    <div class="card-content">
+                        <h2>Robotics and AI</h2>
+                        <p>The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot....
+                        </p>
+                        <button>Read more</button>
+                    </div>  
+                </div>
+                <div class="vertical-card">
+                    <img class="v-card-image" src="/images/genoa-956405_1920.jpg" alt="Huge ant">
+                    <div class="card-content">
+                        <h2>Ecology</h2>
+                        <p>As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.
+                            In our ecology section of the museum, we unpack the dangers...
+                        </p>
+                        <button>Read more</button>
+                    </div>  
+                </div>
+            </div>
+
+            </div>
+            
+        </section>
+
+        <section class="section-upcomingevents ">
+            <div class="wrapper-main section-upcomingevents-flex">
+                <div class="upcomingevents-1">
+                    <h2>Upcoming Events</h2>
+                </div>
+                <div class="upcomingevents-2">
+                    <div class="horizontalcard-container">
+                        <div class="horizontal-card">
+                            <div class="card-content-1">
+                                <img src="/images/exhibition-1863344_1920.jpg" alt="image of exhibition">
+                            </div>
+                            <div class="card-content-2">
+                                <h6 class="card-date">9.JAN.2023</h6>
+                                <h4 class="card-title">Evolution Exhibition</h4>
+                            </div>
+                        </div>
+                        <div class="horizontal-card">
+                            <div class="card-content-1">
+                                <img src="/images/exhibition-1863344_1920.jpg" alt="image of exhibition">
+                            </div>
+                            <div class="card-content-2">
+                                <h6 class="card-date">9.JAN.2023</h6>
+                                <h4 class="card-title">Evolution Exhibition</h4>
+                            </div>
+                        </div>
+                
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+
 
         <footer>
-            <img src="#" alt="Community Science Museum logo">
-            <div class="footer-links">
-                <ul>
-                    <li>
-                        <a href="/visit-us.html">Visit us</a>
-                        <a href="/contribution.html">Contributions</a>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Privacy & Cookies</a>
-                    </li>
-                </ul>
-            </div>
+            <img src="/images/Logo_White.png" class="footer-logo" alt="Community Science Museum logo">
+            <ul>
+                <li>
+                    <a href="/visit-us.html">Visit us</a>
+                    <a href="/contribution.html">Contributions</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy & Cookies</a>
+                </li>
+            </ul>
+
             <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
 
             </div>
         </footer>

@@ -1,0 +1,43 @@
+
+
+.variousinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+.variousinfo-openinghours {
+    grid-column: 1;
+    grid-row: 1/ span 2;
+    background-color: #F5E8F8;
+    padding: 150px;
+
+
+}
+
+.variousinfo-location {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #F5E8F8;
+    padding: 100px;
+
+}
+
+.variousinfo-admission {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #F5E8F8;
+    padding: 100px;
+}
+
+.variousinfo-more {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    background-color: #DAF5FB;
+    text-align: center;
+    padding: 150px;
+
+}

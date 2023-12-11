@@ -1,0 +1,44 @@
+
+.contribution {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15% 0;
+
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.vertical-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #DAF5FB;
+    height: 900px;
+    width: 500px;
+}
+
+
+.vertical-card-image {
+    display: block; 
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.v-card-content-2 {
+    padding: 32px 24px;
+}
+
+.get-in-touch {
+    padding-top: 5rem;
+}
+

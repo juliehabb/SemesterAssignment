@@ -1,0 +1,245 @@
+
+/* START SECTION 1 */
+
+.section-intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.intro-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding: 6%;
+}
+
+.intro-font {
+    font-size: 28px;
+}
+
+.intro-2 {
+    flex: 2;
+}
+
+.intro-image {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover;
+
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+    .section-intro {
+        flex-direction: column-reverse;
+
+    }
+    
+    .intro-1 {
+        text-align: center;
+    }
+
+    
+    .intro-image {
+
+    }
+
+    .buttons-container {
+        display: flex;
+        align-self: center;
+    }
+}
+
+
+
+/* END SECTION 1 */
+
+
+
+/* START FORKIDS */
+
+.section-forkids {
+    background-color: #DAF5FB;
+    display: flex;
+
+}
+
+.section-forkids-flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 10% 0;
+    
+}
+
+.forkids-1 {
+    width: 30%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.forkids-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-forkids {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+/* END FORKIDS */
+
+/* START FORTEACHERS */
+
+.section-forteachers {
+    background-color: #F0FBFF;
+    
+}
+
+.section-forteachers-flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 10% 0;
+}
+
+
+
+.forteachers-1 {
+    display: flex;
+    flex: 1;
+    
+}
+
+.forteachers-2 {
+    flex: 1;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-forteachers {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* END FORTEACHERS */
+
+/* START FORRESEARCHERS */
+
+.section-forresearchers {
+    background-color: #DAF5FB;
+    
+   
+}
+
+.section-forresearchers-flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 10% 0;
+    
+}
+
+.forresearchers-1 {
+    width: 30%;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.forresearchers-2 {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    
+}
+
+
+
+.img-forresearchers {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* END FORRESEARCHERS */
+
+/* START NEWS */
+
+.section-news {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.section-news-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15% 0;
+    
+
+}
+
+.news-container {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.vertical-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #DAF5FB;
+}
+
+.vertical-card-image {
+    display: block; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.v-card-content-1 {
+    flex: 1;
+}
+
+.v-card-content-2 {
+    
+    padding: 32px 24px;
+}
+
+
+/* END NEWS */

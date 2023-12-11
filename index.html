@@ -1,147 +1,221 @@
 <!DOCTYPE html>
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="gamehub" content="Lorem ipsum">
-    <title>Game Hub</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/ab8b6737a1.js" crossorigin="anonymous"></script>
 
-</head>
+<html lang="en">
 
-<header>
-    <section class="header">
-        <nav>
-            <a href="index.html"> <img src="#" alt="Community science museum"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Community Science Museum" content="Community Science Museum is a place for primary to  middle school children and families with young children to enjoy.">
+        <title>Community Science Museum</title>
+        <link rel="stylesheet" href="CSS/Reset.css">
+        <link rel="stylesheet" href="CSS/Main.css">
+        <link rel="stylesheet" href="CSS/Nav.css">
+        <link rel="stylesheet" href="CSS/Footer.css">
+        <link rel="stylesheet" href="CSS/Upcoming-Events.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/ab8b6737a1.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    </head>
+
+    <body>
+
+        <header>
+            <section class="section-navigation">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+                <a href="/index.html" > <img src="/images/Logo_Color.png" class="logo" alt="Community science museum"></a>
+                <nav> 
+                    <ul>
+                        <li>
+                            <a href="/visit-us.html">Visit us</a>
+                            <a href="#">Exhibitions</a>
+                            <a href="#">Contributions</a>
+                            <a class="link-buytickets" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </section>
+        </header>
+        
+        <section class="section-intro">
+            <div class="intro-1">
+                <h1>Come join us at the Community Science Museum</h1>
+                <p class="intro-font">where we are committed to making science accessible to all</p>
+                <div class="buttons-container">
+                    <button>For kids</button>
+                    <button>For teachers</button>
+                    <button class="button-2">For researchers</button>
+                </div>
+            </div>
+            <div class="intro-2">
+                <img class="intro-image" src="/images/Header_Image.png" alt="Picture of scientist working">
+            </div>
+        </section>
+    
+        <section class="section-upcomingevents ">
+            <div class="wrapper-main section-upcomingevents-flex">
+                <div class="upcomingevents-1">
+                    <h2>Upcoming Events</h2>
+                </div>
+                <div class="upcomingevents-2">
+                    <div class="horizontalcard-container">
+                        <div class="horizontal-card">
+                            <div class="card-content-1">
+                                <img src="/images/exhibition-1863344_1920.jpg" alt="image of exhibition">
+                            </div>
+                            <div class="card-content-2">
+                                <h6 class="card-date">9.JAN.2023</h6>
+                                <h4 class="card-title">Evolution Exhibition</h4>
+                            </div>
+                        </div>
+                        <div class="horizontal-card">
+                            <div class="card-content-1">
+                                <img src="/images/exhibition-1863344_1920.jpg" alt="image of exhibition">
+                            </div>
+                            <div class="card-content-2">
+                                <h6 class="card-date">9.JAN.2023</h6>
+                                <h4 class="card-title">Evolution Exhibition</h4>
+                            </div>
+                        </div>
+                
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+    
+        <section class="section-forkids">
+            <div class="wrapper-main section-forkids-flex">
+                <div class="forkids-1">
+                    <h2>For kids</h2>
+                    <p class="p-space">Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
+                    </p>
+                    <p class="p-space">
+                        You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident
+                        Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                    </p>
+                    <p class="p-space">
+                        We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll
+                        get to explore and experiment with our team of experts.
+                    </p>
+                    <p class="p-space">
+                        During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. 
+                        Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+
+                    </p class="p-space">
+                    <button>Check out Exhibition spaces</button>
+                </div>
+                <div class="forkids-2">
+                    <img src="/images/billetto-editorial-334686.jpg" class="img-forkids" alt="image of child painting device over eyes and a headset">
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="section-forteachers">
+            <div class="wrapper-main section-forteachers-flex">
+                <div class="forteachers-1">
+                    <img src="/images/exhibition-1863344_1920.jpg" class="img-forteachers" alt="Image of an exhibition">
+                </div>
+                <div class="forteachers-2">
+                    <h2>For Teachers</h2>
+                    <p>As a community-driven museum, we want to work with schools to create places of learning and exploring.
+                    Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
+                    Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
+                    </p>
+                    <button>Check out Exhibition spaces</button>
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="section-forresearchers">
+            <div class="wrapper-main section-forresearchers-flex">
+                <div class="forresearchers-1">
+                    <h2>For Researchers</h2>
+                    <p> Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them.
+                        We have online records, laboratory space, and a working relationship with a number of universities around the country.
+                    </p>
+                    <button>Check out Exhibition spaces</button>
+                </div>
+                <div class="forresearchers-2">
+                    <img src="/images/people-219985_1280.jpg" class="img-forresearchers" alt="image of person looking into microscope">
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="section-news">
+            <div class="wrapper-main section-news-flex">
+                <h2>News</h2>
+            <div class="news-container">
+                <a href="#" class="vertical-card">
+                    <div class="v-card-content-1">
+                        <img class="vertical-card-image" src="/images/skeleton-414543_1920.jpg" alt="image of skeletons depicting evolution">
+                    </div>
+                    
+                    <div class="v-card-content-2">
+                        <h6 class="card-date">9.JAN.2023</h6>
+                        <h5 class="card-title">Evolution Exhibition</h5>
+                        <p>Read more</p>
+                        
+                    </div>
+                </a>
+                <a href="#" class="vertical-card">
+                    <div class="v-card-content-1">
+                        <img class="vertical-card-image" src="/images/exhibition-1863344_1920.jpg" alt="image of exhibition">
+                    </div>
+                    <div class="v-card-content-2">
+                        <h6 class="card-date">9.JAN.2023</h6>
+                        <h5 class="card-title">Evolution Exhibition</h5>
+                        <p>Read more</p>
+                        
+                    </div>
+                </a>
+                <a href="#" class="vertical-card">
+                    <div class="v-card-content-1">
+                        <img class="vertical-card-image" src="/images/mammoth-1257288_1920.jpg" alt="image of a mammoth skeleton">
+                    </div>
+                    
+                    <div class="v-card-content-2">
+                        <h6 class="card-date">9.JAN.2023</h6>
+                        <h5 class="card-title">Evolution Exhibition</h5>
+                        <p>Read more</p>
+                    </div>
+                </a>
+            </div>
+            </div>
+            
+        </section>
+    
+        <footer>
+            <img src="/images/Logo_White.png" class="footer-logo" alt="Community Science Museum logo">
             <ul>
                 <li>
-                    <a href="#">Visit us</a>
-                    <a href="#">Exhibitions</a>
-                    <a href="#">Contributions</a>
+                    <a href="/visit-us.html">Visit us</a>
+                    <a href="/contribution.html">Contributions</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy & Cookies</a>
                 </li>
             </ul>
-        </nav>
-    </section>
-</header>
 
-<body>
-    
-    <section class="section-intro">
-        <div class="intro-1">
-            <h1>Come join us at the Community Science Museum</h1>
-            <p>where we are committed to making science accessible to all</p>
-            <div class="buttons-container">
-                <button>For kids</button>
-                <button>For teachers</button>
-                <button>For researchers</button>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
             </div>
-        </div>
-        <div class="intro-2">
-            <img src="#" alt="Picture of scientist working">
-        </div>
-    </section>
+        </footer>
+    </body> 
+</html>
 
-    <section class="section-about">
-        <h2>About Museum</h2>
-        <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
-            The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
-            We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. 
-            Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-        </p>
-    </section>
 
-    <section class="section-upcomingevents">
-        <div class="upcomingevents-1">
-            <h2>Upcoming Events</h2>
-        </div>
-        <div class="upcomingevents-2">
-            <div class="horizontal-card">
-                <img src="#" alt="image">
-                <div class="card-content">
-                    <h5 class="card-date">9.JAN.2023</h5>
-                    <h3 class="card-title">Evolution Exhibition</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-forkids">
-        <div class="forkids-1">
-            <h2>For kids</h2>
-            <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
-                You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
-                We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
-                During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
-            </p>
-            <button>Check out Exhibition spaces</button>
-        </div>
-        <div class="forkids-2">
-            <img src="#" alt="image">
-        </div>
-    </section>
-
-    <section class="section-forteachers">
-        <div class="forteachers-1">
-            <img src="#" alt="image">
-        </div>
-        <div class="forteachers-2">
-            <h2>For Teachers</h2>
-            <p>As a community-driven museum, we want to work with schools to create places of learning and exploring.
-            Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
-            Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
-            </p>
-            <button>Check out Exhibition spaces</button>
-        </div>
-    </section>
-
-    <section class="section-forresearchers">
-        <div class="forresearchers-1">
-            <h2>For Researchers</h2>
-            <p> Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them.
-                We have online records, laboratory space, and a working relationship with a number of universities around the country.
-            </p>
-            <button>Check out Exhibition spaces</button>
-        </div>
-        <div class="forresearchers-2">
-            <img src="#" alt="image">
-        </div>
-    </section>
-
-    <section class="section-news">
-        <h2>News</h2>
-        <div class="news-container">
-            <a href="#" class="vertical-card">
-                <img src="#" alt="image">
-                <div class="card-content">
-                    <h5 class="card-date">9.JAN.2023</h5>
-                    <h3 class="card-title">Evolution Exhibition</h3>
-                    <a href="#">Read more</a>
-                </div>
-            </a>
-            <a href="#" class="vertical-card">
-                <img src="#" alt="image">
-                <div class="card-content">
-                    <h5 class="card-date">9.JAN.2023</h5>
-                    <h3 class="card-title">Evolution Exhibition</h3>
-                    <a href="#">Read more</a>
-                </div>
-            </a>
-            <a href="#" class="vertical-card">
-                <img src="#" alt="image">
-                <div class="card-content">
-                    <h5 class="card-date">9.JAN.2023</h5>
-                    <h3 class="card-title">Evolution Exhibition</h3>
-                    <a href="#">Read more</a>
-                </div>
-            </a>
-        </div>
-    </section>
-
-    <footer>
-
-    </footer>
-
-</body>
 
