@@ -1,8 +1,123 @@
-        <section class="section-about">
-            <h2>About Museum</h2>
-            <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
-                The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
-                We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. 
-                Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
-            </p>
-        </section>
+/* NAV */
+
+
+
+nav, #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: flex;
+    justify-content: center;
+    background: #F0FBFF;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+}
+
+.section-navigation {
+    padding: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+}
+
+nav li {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    background: #F0FBFF;
+    color: #007A94;
+    font-size: 1rem;
+
+}
+
+#menu-checkbox {
+    float: right;
+    
+}
+
+#menu-checkbox:checked ~ ul {
+    display: flex;
+    
+
+}
+
+.hamburger-icon {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 100
+}
+
+
+
+nav a {
+    display: block;
+    color: #007A94;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.link-contactus {
+    font-weight: 900;
+    color: #B75BCE;
+}
+
+.logo{
+    width: 5rem;
+}
+
+@media (min-width: 800px) {
+    nav {
+        display: block;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .section-navigation {
+        width: 100%;
+        background-color: #F0FBFF;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+
+    }
+
+    li {
+        display: block;
+    }
+
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    .logo {
+        padding-left: 2rem ;
+    }
+}
+
+/* END NAV */

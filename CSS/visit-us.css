@@ -10,13 +10,16 @@
 }
 
 .variousinfo-openinghours {
+    display: grid;
     grid-column: 1;
     grid-row: 1/ span 2;
     background-color: #F5E8F8;
-    padding: 150px;
-
-
+    place-items: center;
+    place-content: center;
+    align-items: center;
+ 
 }
+
 
 .variousinfo-location {
     grid-column: 2;
@@ -39,5 +42,58 @@
     background-color: #DAF5FB;
     text-align: center;
     padding: 150px;
+
+}
+
+.more-accessibility {
+    padding-bottom: 2rem;
+
+}
+
+.more-foodanddrink {
+    padding-bottom: 2rem;
+}
+
+
+
+.table-fees {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+    .variousinfo {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto ;
+        
+        
+        
+    }
+
+    .variousinfo-openinghours {
+        display: block;
+        padding: 100px;
+        grid-column: auto;
+        grid-row: auto;
+     
+    }
+    
+    
+    .variousinfo-location {
+        grid-column: auto;
+        grid-row: auto;
+    
+    }
+    
+    .variousinfo-admission {
+        grid-column: auto;
+        grid-row: auto;
+
+    }
+    
+    .variousinfo-more {
+        grid-column: auto;
+        grid-row: auto;
+    
+    }
 
 }

@@ -16,7 +16,9 @@
 }
 
 .intro-font {
-    font-size: 28px;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .intro-2 {
@@ -28,12 +30,16 @@
     height: auto; 
     display: block; 
     object-fit: cover;
+}
 
+.intro-image-small {
+    display: none;
 }
 
 .buttons-container {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 @media (max-width: 1200px) {
@@ -46,9 +52,20 @@
         text-align: center;
     }
 
+    .intro-2 {
+        width: 100%;
+    }
+
     
     .intro-image {
+        display: none;
+    }
 
+    .intro-image-small {
+        display:flex; 
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
     }
 
     .buttons-container {
@@ -68,12 +85,10 @@
 .section-forkids {
     background-color: #DAF5FB;
     display: flex;
-
 }
 
 .section-forkids-flex {
     display: flex;
-    flex-wrap: wrap-reverse;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -105,6 +120,31 @@
 
 }
 
+@media (max-width: 1200px) {
+
+    .section-forkids-flex {
+        flex-direction: column-reverse;
+        gap: 0rem;
+    
+    }
+    
+    .forkids-1 {
+        width: 44%;
+        padding-top: 3rem;
+        align-items: center;
+    }
+    
+    .img-forkids {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-forkids .wrapper-main  {
+        width: 100%;
+        margin: 0 auto;
+}
+}
+
 /* END FORKIDS */
 
 /* START FORTEACHERS */
@@ -116,7 +156,6 @@
 
 .section-forteachers-flex{
     display: flex;
-    flex-wrap: wrap-reverse;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -129,12 +168,12 @@
 .forteachers-1 {
     display: flex;
     flex: 1;
+    justify-content: flex-start;
     
 }
 
 .forteachers-2 {
     flex: 1;
-    width: 30%;
     display: flex;
     flex-direction: column;
     
@@ -145,6 +184,32 @@
     height: 400px;
     object-fit: cover;
     overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+
+    .section-forteachers-flex {
+        flex-direction: column;
+        gap: 0rem;
+    
+    }
+    
+    .forteachers-2 {
+        width: 44%;
+        padding-top: 3rem;
+        align-items: center;
+        
+    }
+    
+    .img-forteachers {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-forteachers .wrapper-main  {
+        width: 100%;
+        margin: 0 auto;
+}
 }
 
 /* END FORTEACHERS */
@@ -190,6 +255,33 @@
     height: 400px;
     object-fit: cover;
     overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+
+    .section-forresearchers-flex {
+        flex-direction: column-reverse;
+        gap: 0rem;
+    
+    }
+    
+    .forresearchers-1 {
+        width: 44%;
+        padding-top: 3rem;
+        align-items: center;
+       
+    }
+
+    
+    .img-forresearchers {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-forresearchers .wrapper-main  {
+        width: 100%;
+        margin: 0 auto;
+}
 }
 
 /* END FORRESEARCHERS */

@@ -19,41 +19,57 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
     color: #007A94;
     font-weight: 00;
+    
 }
 
 h1 {
-    font-size: 52px;
-    line-height: 80px;
+    font-size: 36px;
+    line-height: 1.2;
     font-weight: 700;
+    
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 24px;
     font-weight: 700;
+    line-height: 1.2;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 h5 {
-    font-size: 23px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 p {
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.rem;
     letter-spacing: 0.5px;
-    line-height: 25px;
+    line-height: 1.5;
+}
+
+.p-bold {
+    font-weight: 700;
 }
 
 .p-space {
@@ -72,6 +88,11 @@ img {
     margin: 0 auto;
 }
 
+table {
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
 /* BUTTON */
 
 button {
@@ -80,12 +101,24 @@ button {
     border: none;
     border-radius: 2px;
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     margin-right: 1rem;
 }
 
 .button-2 {
     background-color: #2ECDF0;
+}
+
+.button-wide {
+    background-color: #D688E9;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 360px;
+    margin-top: 1rem;
+
 }
 
 /* BUTTON */
