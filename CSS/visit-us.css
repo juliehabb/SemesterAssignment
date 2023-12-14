@@ -60,6 +60,19 @@
     margin-bottom: 1rem;
 }
 
+table {
+    border-collapse: collapse;
+  }
+  
+  tr {
+    border-bottom: 1px solid #E6B8F1;
+  }
+  
+
+  td {
+    padding: 8px;
+  }
+
 @media (max-width: 800px) {
     .variousinfo {
         grid-template-columns: 1fr;
