@@ -22,6 +22,7 @@
     background-color: #DAF5FB;
     border-radius: 10px;
     overflow: hidden;
+    color: black;
 }
 
 .card-container img {
@@ -36,6 +37,8 @@
     padding: 2rem;
 }
 
-.card-content button {
+
+
+.button-card {
     margin-top: 2rem;
 }

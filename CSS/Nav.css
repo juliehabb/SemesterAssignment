@@ -96,6 +96,7 @@ nav a {
         cursor: pointer;
         font-size: 20px;
         z-index: 101; 
+        padding-right: 0.5rem;
     }
 
     .section-navigation {

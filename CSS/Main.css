@@ -7,6 +7,9 @@ html {
 body {
     background-color: #F0FBFF;
     height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -16,6 +19,10 @@ main {
     padding-top: 5rem ;
 }
 
+.wrapper-main{
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -86,10 +93,7 @@ img {
     object-fit: cover;
 }
 
-.wrapper-main{
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 table {
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -98,9 +102,54 @@ table {
 
 /* BUTTON */
 
+.button-main{
+    background-color: #D688E9;
+    color: black;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-right: 1rem;  
+}
+.button-secondary{
+    background-color: #2ECDF0;
+    color: black;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-right: 1rem;  
+}
+
+.button-main-wide {
+    background-color: #D688E9;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 360px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.button-card {
+    display: inline-block;
+    background-color: #D688E9;
+    color: black;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-right: 1rem; 
+}
+
 button {
     background-color: #D688E9;
-    padding: 16px;
+    padding: 14px 16px;
     border: none;
     border-radius: 2px;
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,3 +174,7 @@ button {
 }
 
 /* BUTTON */
+
+.fa-solid {
+    color:#007A94
+}

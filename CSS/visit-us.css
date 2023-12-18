@@ -1,4 +1,7 @@
 
+.section-headline {
+   text-align: center;
+}
 
 .variousinfo {
     display: grid;
@@ -6,7 +9,7 @@
     grid-template-rows: auto auto;
     grid-gap: 10px;
     justify-content: center;
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 
 .variousinfo-openinghours {
@@ -46,19 +49,17 @@
 }
 
 .more-accessibility {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 
 }
 
 .more-foodanddrink {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
+/* TABLE START */
 
 
-.table-fees {
-    margin-bottom: 1rem;
-}
 
 table {
     border-collapse: collapse;
@@ -67,24 +68,50 @@ table {
   tr {
     border-bottom: 1px solid #E6B8F1;
   }
+
+  tr:last-child {
+    border-bottom: 0px;
+  }
   
 
   td {
     padding: 8px;
   }
 
+  .p-bold {
+    padding: 0.5rem 2rem 0.5rem 0;
+  }
+
+  .p-bold-2 {
+    padding: 0.5rem 0rem 0.5rem 2rem;
+    font-weight: 700;
+  }
+
+  .table-fees {
+    margin-bottom: 1rem;
+}
+
+  /* TABLE END */
+
+  .variousinfo-more i {
+    font-size: 45px;
+    padding-bottom: 0.5rem;
+   
+  }
+
+  .fa-solid{
+    color: #2ECDF0;
+
+  }
+
 @media (max-width: 800px) {
     .variousinfo {
         grid-template-columns: 1fr;
         grid-template-rows: auto ;
-        
-        
-        
     }
 
     .variousinfo-openinghours {
-        display: block;
-        padding: 100px;
+        padding: 5rem 2rem;
         grid-column: auto;
         grid-row: auto;
      
@@ -94,18 +121,21 @@ table {
     .variousinfo-location {
         grid-column: auto;
         grid-row: auto;
+        padding: 5rem 2rem;
     
     }
     
     .variousinfo-admission {
         grid-column: auto;
         grid-row: auto;
+        padding: 5rem 2rem;
 
     }
     
     .variousinfo-more {
         grid-column: auto;
         grid-row: auto;
+        padding: 5rem 2rem;
     
     }
 

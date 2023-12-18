@@ -18,13 +18,21 @@
 .upcomingevents-2 {
     flex: 1;
     display: flex;
-
 }
+
+
+.upcomingevents-2 p {
+    color: rgb(79, 104, 107);
+    padding-top: 0.5rem;
+}
+
+
 
 .horizontalcard-container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex-wrap: wrap;
   
     
 }
@@ -33,9 +41,10 @@
     display: flex;
     background-color: #DAF5FB;
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-radius: 2px;
     align-self: center;
+    overflow: hidden;
 
 }
 
@@ -46,13 +55,10 @@
     
 }
 
-.horizontal-card-img{
-    width: 100%;
+.horizontal-card img{
+    width: 150px;
     height: 100%;
-    display: block;
     object-fit: cover;
-    overflow: hidden;
-    display: flex;
     flex: 1;
  
 }
@@ -62,7 +68,7 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    padding: 3rem 0 3rem 3rem;
+    padding: 3rem  3rem 3rem;
     
 }
 
@@ -70,7 +76,7 @@
     color: #AE6DBE;
     font-weight: 400;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .card-title {
@@ -86,5 +92,42 @@
     .section-upcomingevents-flex {
         flex-direction: column;
     }
+
+   
+    .horizontal-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #DAF5FB;
+        width: 400px;
+        height: auto;
+        border-radius: 2px;
+        align-self: center;
+        overflow: hidden;
+    }
+
+    .card-content-1 {
+        display: flex;
+       
+    }
+    
+    .horizontal-card img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+     
+    }
+    
+    .card-content-2 {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 3rem 3rem 3rem 3rem;
+        
+    }
+
+    
+
+
 }
 /* END EVENTS */

@@ -94,7 +94,6 @@
     justify-content: space-between;
     gap: 5rem;
     padding: 10% 0;
-    
 }
 
 .forkids-1 {
@@ -176,7 +175,6 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    
 }
 
 .img-forteachers {
@@ -217,9 +215,7 @@
 /* START FORRESEARCHERS */
 
 .section-forresearchers {
-    background-color: #DAF5FB;
-    
-   
+    background-color: #DAF5FB; 
 }
 
 .section-forresearchers-flex{
@@ -244,8 +240,7 @@
 .forresearchers-2 {
     display: flex;
     flex: 2;
-    justify-content: flex-end;
-    
+    justify-content: flex-end; 
 }
 
 
@@ -291,23 +286,20 @@
 .section-news {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .section-news-flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 15% 0;
-    
-
 }
 
 .news-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 1rem;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .vertical-card {
