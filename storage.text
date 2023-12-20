@@ -1,123 +1,143 @@
-/* NAV */
+.section-upcomingevents-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15% 0;
 
-
-
-nav, #menu-checkbox {
-    display: none;
 }
 
-#menu-checkbox:checked ~ nav {
+.upcomingevents-1 {
+    flex: 1;
+}
+
+
+.upcomingevents-2 {
+    flex: 1;
+    display: flex;
+}
+
+
+.upcomingevents-2 p {
+    color: rgb(79, 104, 107);
+    padding-top: 0.5rem;
+}
+
+
+
+.h-card-container {
     display: flex;
     justify-content: center;
-    background: #F0FBFF;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+  
+    
+}
+
+.horizontal-card {
+    background-color: #DAF5FB;
     width: 100%;
-    height: 100vh;
-    
-    
-    
-}
-
-.section-navigation {
-    padding: 3%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-
-nav {
-    position: absolute;
-}
-
-nav li {
-    list-style: none;
-}
-
-header {
-    position: relative;
-    background: #F0FBFF;
-    color: #007A94;
-    font-size: 1rem;
+    border-radius: 2px;
+    align-self: center;
+    overflow: hidden;
 
 }
 
-#menu-checkbox {
-    float: right;
-    
+.card-content {
+    padding: 3rem 3rem 3rem 3rem;
 }
 
-#menu-checkbox:checked ~ ul {
-    display: flex;
-    
-
+.horizontal-card img {
+    width: 250px;
+    height: 130%;
+    object-fit: cover;
+ 
 }
 
-.hamburger-icon {
-    float: right;
-    cursor: pointer;
-    font-size: 20px;
-    z-index: 100
+
+.card-date {
+    color: #AE6DBE;
+    font-weight: 400;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: #272727;
+    font-weight: 400;
+    margin-top: 0;
 }
 
 
 
-nav a {
-    display: block;
-    color: #007A94;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    
-}
-
-.link-contactus {
-    font-weight: 900;
-    color: #B75BCE;
-}
-
-.logo{
-    width: 5rem;
-}
-
-@media (min-width: 800px) {
-    nav {
-        display: block;
-        position: static;
+@media (max-width: 1200px) {
+    .section-upcomingevents-flex {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+        justify-items: center;
+        justify-self: center;
+        flex-wrap: wrap;
+        padding: 15% 0%;
+    
         
     }
 
-    .section-navigation {
-        width: 100%;
-        background-color: #F0FBFF;
-        position: fixed;
+
+
+
+   
+    .horizontal-card {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        background-color: #DAF5FB;
+        width: 300px;
+        height: auto;
+        border-radius: 2px;
+        align-self: center;
+        overflow: hidden;
+    }
+
+    .upcomingevents-1 {
+        flex: 1;
+        justify-content: center;
+        align-content: center;
         align-items: center;
-        padding: 1rem 0;
-
+        justify-self: center;
+    }
+    
+    
+    .upcomingevents-2 {
+        flex: 1;
+        display: flex;
     }
 
-    li {
-        display: block;
+    .card-content-1 {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .horizontal-card img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+     
+    }
+    
+    .card-content-2 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 3rem 3rem 3rem 3rem;
+        
     }
 
+    
 
-    .hamburger-icon {
-        display: none;
-    }
 
-    nav a {
-        display: inline-block;
-    }
-
-    .logo {
-        padding-left: 2rem ;
-    }
 }
-
-/* END NAV */
+/* END EVENTS */

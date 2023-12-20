@@ -33,7 +33,7 @@
                         <a href="visit-us.html">Visit us</a>
                         <a href="exhibitions.html">Exhibitions</a>
                         <a href="contribution.html">Contributions</a>
-                        <a class="link-contactus" href="#">CONTACT US</a>
+                        <a class="link-contactus nav-highlight-page" href="contact-us.html" >CONTACT US</a>
                     </li>
                 </ul>
             </nav>
@@ -57,21 +57,21 @@
                 
                 
             </div>
-            <form action="">
+            <form action="/submit-form">
                 <div class="row">
-                    <label for="name">Name</label>
-                    <input id="name" name="name"  type="text">
+                    <label for="name" id="name-label">Name *</label>
+                    <input id="name" name="name" type="text" required>
                 </div>
                 <div class="row">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email">
+                    <label for="email" id="email-label">Email *</label>
+                    <input id="email" name="email" type="email" required>
                 </div>
                 <div class="row"> 
-                    <label for="message">Message</label>
+                    <label for="message" id="message-label">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <div class="row">
-                    <input id="submit" type="submit" value="send form">
+                    <input id="submit" type="submit" value="Send Form">
                 </div>
                 
 

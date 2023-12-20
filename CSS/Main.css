@@ -86,6 +86,10 @@ p {
     padding-bottom: 1.5rem;
 }
 
+.nav-highlight-page {
+    border-bottom: 2px solid #007A94;
+  }
+
 img {
     width: 100%; 
     height: auto; 

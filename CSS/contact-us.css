@@ -1,4 +1,8 @@
 
+.nav-highlight-page {
+    border-bottom: 2px solid #B75BCE;
+  }
+
 .section-contact {
     display: flex;
     justify-content: center;
@@ -7,13 +11,12 @@
     
 }
 
-
-
 .contact-info {
     width: 50%;
     max-width: 600px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 }
 
 .contact-point {
@@ -24,4 +27,6 @@
 i {
     padding-right: 0.5rem;
 }
+
+
 
