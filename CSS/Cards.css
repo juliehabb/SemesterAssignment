@@ -1,18 +1,6 @@
 /* START EVENTS */
 
 
-
-.section-upcomingevents-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10% 0 15% 0;
-    flex-wrap: wrap;
-}
-
-
 .card-container {
     display: flex;
     justify-content: center;
@@ -28,6 +16,8 @@
     background-color: #DAF5FB;
     border-radius: 4px;
     overflow: hidden;
+    color: black;
+    
 }
 
 .vertical-card:hover {
@@ -60,4 +50,8 @@
 .v-card-content p {
     color: rgb(79, 104, 107);
     padding-top: 0.5rem;
+}
+
+.button-card {
+    margin-top: 2rem;
 }

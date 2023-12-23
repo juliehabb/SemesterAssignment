@@ -1,4 +1,4 @@
-
+@import url(Main.css);
 /* START SECTION 1 */
 
 .section-intro {
@@ -80,6 +80,16 @@
 
 /* END SECTION 1 */
 
+
+.section-upcomingevents-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10% 0 15% 0;
+    flex-wrap: wrap;
+}
 
 
 /* START FORKIDS */

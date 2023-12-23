@@ -1,4 +1,10 @@
 
+@import url(Reset.css);
+@import url(Nav.css);
+@import url(Footer.css);
+@import url(Cards.css);
+@import url(form.css);
+
 
 html {
     font-size: 16px;
