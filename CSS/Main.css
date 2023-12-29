@@ -44,7 +44,7 @@ main {
     --background-blue-2: #F0FBFF;
     --dark-purple: #B75BCE;
     --light-purple: #E6B8F1;
-    --black: #000000;
+    --black: #030303;
 }
 
 
@@ -108,11 +108,24 @@ p {
 }
 
 .p-space {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem ;
 }
 
 .nav-highlight-page {
-    border-bottom: 2px solid var(--main-blue);
+   border-bottom: 2.5px solid var(--dark-purple)
+}
+
+.link-contactus-h {
+    border-bottom: 2.5px solid var(--dark-purple)
+}
+
+summary {
+    font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: var(--main-blue);
 }
 
 /*Image*/

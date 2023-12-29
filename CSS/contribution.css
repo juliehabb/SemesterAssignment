@@ -21,11 +21,12 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    padding: 5% 0;
+    padding: 5rem 0;
 }
 
 .contribution h1 {
     align-self: center;
+    padding-bottom: 1rem;
 }
 
 /*Card*/

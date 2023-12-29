@@ -34,7 +34,6 @@ header {
     display: none;
 }
 
-
 .logo {
     padding-left: 2rem ;
     width: 5rem;
@@ -47,38 +46,53 @@ nav li {
 }
 
 nav a {
-    transition-property: border;
-    transition-duration: 0s;
+    position: relative;
     color: var(--main-blue);
     padding: 10px 20px;
     text-decoration: none;
     font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
 
-nav a:hover {
-    border-bottom: 2px solid #007A94;
+
+nav a:before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    height: 2.5px;
+    width: 0;
+    left: 0;
+    background: var(--dark-purple);
+    border-radius: 50px;
+    transition: width 0.3s ease;
 }
+
+nav a:hover:before {
+    width: 100%;
+}
+
+.nav-highlight-page:before {
+    height: 0px;
+}
+
 
 .link-contactus {
-    transition-property: border;
-    transition-duration: 0s;
     font-weight: 900;
     color: var(--dark-purple);
 }
 
-.link-contactus:hover {
-    border-bottom: 2px solid var(--dark-purple);
+
+nav a .link-contactus-h::before {
+    background: var(--dark-purple);
 }
+
 
 /*Checkbox*/
 
 #menu-checkbox {
     display: none;
 }
-
 
 /*Mobile view*/
 
@@ -144,5 +158,3 @@ nav a:hover {
         align-content: center;
     }
 }
-
-/* END NAV */

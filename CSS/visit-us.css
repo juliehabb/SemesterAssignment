@@ -4,6 +4,7 @@
 
 .section-headline {
    text-align: center;
+   padding-top: 4rem;
 }
 
 .variousinfo {
@@ -12,7 +13,7 @@
     grid-template-rows: auto auto;
     grid-gap: 10px;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 
 .variousinfo-openinghours {
@@ -24,7 +25,6 @@
     place-content: center;
     align-items: center;
 }
-
 
 .variousinfo-location {
     grid-column: 2;
