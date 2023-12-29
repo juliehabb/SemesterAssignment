@@ -1,23 +1,14 @@
 
 @import url(Main.css);
 
+/*Sections*/
+
 .exhibitions-flex {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 30px;
     padding: 5% 0 2% 0;
-}
-
-
-.vertical-card {
-    flex-basis: 30%;
-    gap: 100px;
-    min-width: 300px;
-}
-
-.card-content {
-    padding: 2rem;
 }
 
 .section-upcomingevents-flex {
@@ -29,3 +20,17 @@
     padding: 10% 0 15% 0;
     flex-wrap: wrap;
 }
+
+
+/*Card*/
+
+.vertical-card {
+    flex-basis: 30%;
+    gap: 100px;
+    min-width: 300px;
+}
+
+.card-content {
+    padding: 2rem;
+}
+

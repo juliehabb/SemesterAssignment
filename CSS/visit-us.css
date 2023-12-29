@@ -1,5 +1,6 @@
+@import url(Main.css);
 
-
+/*Sections*/
 
 .section-headline {
    text-align: center;
@@ -18,36 +19,33 @@
     display: grid;
     grid-column: 1;
     grid-row: 1/ span 2;
-    background-color: #F5E8F8;
+    background-color: var(--background-purple) ;
     place-items: center;
     place-content: center;
     align-items: center;
- 
 }
 
 
 .variousinfo-location {
     grid-column: 2;
     grid-row: 1;
-    background-color: #F5E8F8;
+    background-color: var(--background-purple);
     padding: 100px;
-
 }
 
 .variousinfo-admission {
     grid-column: 2;
     grid-row: 2;
-    background-color: #F5E8F8;
+    background-color: var(--background-purple);
     padding: 100px;
 }
 
 .variousinfo-more {
     grid-column: 1 / span 2;
     grid-row: 3;
-    background-color: #DAF5FB;
+    background-color: var(--background-blue);
     text-align: center;
     padding: 150px;
-
 }
 
 .more-accessibility {
@@ -59,23 +57,20 @@
     padding-bottom: 4rem;
 }
 
-/* TABLE START */
-
-
+/*Table*/
 
 table {
     border-collapse: collapse;
   }
   
   tr {
-    border-bottom: 1px solid #E6B8F1;
+    border-bottom: 1px solid var(--light-purple);
   }
 
   tr:last-child {
     border-bottom: 0px;
   }
   
-
   td {
     padding: 8px;
   }
@@ -93,20 +88,21 @@ table {
     margin-bottom: 1rem;
 }
 
-  /* TABLE END */
+/*Icons*/
 
   .variousinfo-more i {
     font-size: 45px;
     padding-bottom: 0.5rem;
-   
   }
 
   .fa-solid{
-    color: #2ECDF0;
-
+    color: var(--secondary-blue);
   }
 
+  /*Mobile view*/
+
 @media (max-width: 800px) {
+
     .variousinfo {
         grid-template-columns: 1fr;
         grid-template-rows: auto ;
@@ -116,7 +112,6 @@ table {
         padding: 5rem 2rem;
         grid-column: auto;
         grid-row: auto;
-     
     }
     
     
@@ -124,21 +119,18 @@ table {
         grid-column: auto;
         grid-row: auto;
         padding: 5rem 2rem;
-    
     }
     
     .variousinfo-admission {
         grid-column: auto;
         grid-row: auto;
         padding: 5rem 2rem;
-
     }
     
     .variousinfo-more {
         grid-column: auto;
         grid-row: auto;
         padding: 5rem 2rem;
-    
     }
 
 }

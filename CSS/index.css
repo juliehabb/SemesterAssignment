@@ -1,5 +1,6 @@
 @import url(Main.css);
-/* START SECTION 1 */
+
+/* Start Section 1 */
 
 .section-intro {
     display: flex;
@@ -43,6 +44,8 @@
     
 }
 
+/*Mobile View*/
+
 @media (max-width: 1200px) {
     .section-intro {
         flex-direction: column-reverse;
@@ -78,7 +81,7 @@
 
 
 
-/* END SECTION 1 */
+/* End Section 1 */
 
 
 .section-upcomingevents-flex {
@@ -95,7 +98,7 @@
 /* START FORKIDS */
 
 .section-forkids {
-    background-color: #DAF5FB;
+    background-color: var(--background-blue);
     display: flex;
 }
 
@@ -161,7 +164,7 @@
 /* START FORTEACHERS */
 
 .section-forteachers {
-    background-color: #F0FBFF;
+    background-color: var(--background-blue-2);
     
 }
 
@@ -227,7 +230,7 @@
 /* START FORRESEARCHERS */
 
 .section-forresearchers {
-    background-color: #DAF5FB; 
+    background-color: var(--background-blue); 
 }
 
 .section-forresearchers-flex{

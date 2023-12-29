@@ -1,16 +1,13 @@
 @import url(Main.css);
 
 
-.nav-highlight-page {
-    border-bottom: 2px solid #B75BCE;
-  }
+/*Section*/
 
 .section-contact {
     display: flex;
     justify-content: center;
     padding: 10rem 0;
     flex-wrap: wrap;
-    
 }
 
 .contact-info {
@@ -21,6 +18,7 @@
     padding-bottom: 3rem;
 }
 
+/*Icons*/
 .contact-point {
     display: flex;
     padding-top: 1rem;

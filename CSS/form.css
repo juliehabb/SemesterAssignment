@@ -1,4 +1,6 @@
 
+/*Section*/
+
 form {
     display: flex;
     flex-direction: column;
@@ -8,12 +10,19 @@ form {
     gap: 1.5rem;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Details*/
+
 label {
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.rem;
     letter-spacing: 0.5px;
     line-height: 1.5;
-    color: #007A94;
+    color: var(--main-blue);
     font-weight: 500;
 }
 
@@ -26,27 +35,19 @@ textarea {
 }
 
 input,textarea {
-    background-color: #DAF5FB;
+    background-color: var(--background-blue);
     border: none;
     border-bottom: 1.5px solid #007A94;
     font-size: 1rem;
 }
 
-
-
-.row {
-    display: flex;
-    flex-direction: column;
-}
-
-
+/*Button*/
 
 #submit {
     margin-top: 1rem;
-    background-color: #D688E9;
+    background-color: var(--secondary-purple);
     border-bottom: none;
     cursor: pointer;
-
 }
 
 

@@ -5,6 +5,7 @@
 @import url(Cards.css);
 @import url(form.css);
 
+/*Overall page*/
 
 html {
     font-size: 16px;
@@ -30,10 +31,28 @@ main {
     margin: 0 auto;
 }
 
+/*Colors*/
+
+:root {
+    --main-blue: #007A94;
+    --secondary-purple:#D688E9;
+    --secondary-purple-h: #c77bda;
+    --secondary-blue: #2ECDF0;
+    --secondary-blue-h: #27c0e2;
+    --background-purple: #F5E8F8;
+    --background-blue: #DAF5FB;
+    --background-blue-2: #F0FBFF;
+    --dark-purple: #B75BCE;
+    --light-purple: #E6B8F1;
+    --black: #000000;
+}
+
+
+/*Typography*/
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'poppins' , Verdana, Geneva, Tahoma, sans-serif;
-    color: #007A94;
+    color: var(--main-blue);
     font-weight: 00;
     
 }
@@ -93,8 +112,10 @@ p {
 }
 
 .nav-highlight-page {
-    border-bottom: 2px solid #007A94;
-  }
+    border-bottom: 2px solid var(--main-blue);
+}
+
+/*Image*/
 
 img {
     width: 100%; 
@@ -103,17 +124,30 @@ img {
     object-fit: cover;
 }
 
-
-
-table {
-    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-}
-
-/* BUTTON */
+/* Buttons*/
 
 .button-main{
-    background-color: #D688E9;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: var(--secondary-purple);
+    color: var(--black);
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-right: 1rem;  
+}
+
+
+.button-main:hover {
+    background-color: var(--secondary-purple-h);
+}
+
+.button-secondary{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: var(--secondary-blue);
     color: black;
     padding: 16px;
     border: none;
@@ -122,20 +156,16 @@ table {
     font-size: 16px;
     margin-right: 1rem;  
 }
-.button-secondary{
-    background-color: #2ECDF0;
-    color: black;
-    padding: 16px;
-    border: none;
-    border-radius: 2px;
-    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    margin-right: 1rem;  
+
+.button-secondary:hover{
+    background-color: var(--secondary-blue-h);
 }
 
 .button-main-wide {
-    background-color: #D688E9;
-    color: black;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: var(--secondary-purple);
+    color: var(--black);
     padding: 14px 16px;
     border: none;
     border-radius: 2px;
@@ -146,10 +176,16 @@ table {
     text-align: center;
 }
 
+.button-main-wide:hover {
+    background-color: var(--secondary-purple-h);
+}
+
 .button-card {
+    transition-property: background-color;
+    transition-duration: 0.5s;
     display: inline-block;
-    background-color: #D688E9;
-    color: black;
+    background-color: var(--secondary-purple);
+    color: var(--black);
     padding: 14px 16px;
     border: none;
     border-radius: 2px;
@@ -158,34 +194,18 @@ table {
     margin-right: 1rem; 
 }
 
-button {
-    background-color: #D688E9;
-    padding: 14px 16px;
-    border: none;
-    border-radius: 2px;
-    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    margin-right: 1rem;
+.button-card:hover {
+    background-color: var(--secondary-purple-h);
 }
-
-.button-2 {
-    background-color: #2ECDF0;
-}
-
-.button-wide {
-    background-color: #D688E9;
-    padding: 16px;
-    border: none;
-    border-radius: 2px;
-    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    width: 360px;
-    margin-top: 1rem;
-
-}
-
-/* BUTTON */
 
 .fa-solid {
-    color:#007A94
+    color: var(--main-blue);
 }
+
+/*Table*/
+
+table {
+    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+

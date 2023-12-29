@@ -1,9 +1,12 @@
 @import url(Main.css);
 
+/*Wrapper*/
+
 .wrapper-main{
     width: 80%;
-    margin: 0 auto;
 }
+
+/*Sections*/
 
 .get-involved {
     display: flex;
@@ -25,9 +28,13 @@
     align-self: center;
 }
 
+/*Card*/
+
 .vertical-card {
     width: 350px; 
 }
+
+/*Button*/
 
 .get-in-touch {
     padding-top: 5rem;

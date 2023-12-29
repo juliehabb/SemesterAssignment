@@ -1,7 +1,9 @@
 /* START FOOTER */
 
+/*Section*/
+
 footer {
-    background-color: #007A94;
+    background-color: var(--main-blue);
     padding: 50px;
     display: flex;
     align-items: center;
@@ -10,13 +12,15 @@ footer {
     margin-top: auto;
 }
 
-
+/*Logo*/
 
 .footer-logo {
     width: 4rem;
     height:auto
     
 }
+
+/*Links*/
 
 footer a {
     text-decoration: none;
@@ -32,6 +36,8 @@ footer li {
 .footer-socials{
     padding-top: 2rem;
 }
+
+/*Mobile view*/
 
 @media (max-width: 800px) {
 
