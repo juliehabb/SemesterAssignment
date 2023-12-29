@@ -18,15 +18,22 @@
     padding-bottom: 3rem;
 }
 
-/*Icons*/
 .contact-point {
     display: flex;
     padding-top: 1rem;
 }
 
+.variousinfo-openinghours {
+    padding-top: 2rem;
+}
+
+/*Icons*/
+
 i {
     padding-right: 0.5rem;
 }
+
+
 
 
 

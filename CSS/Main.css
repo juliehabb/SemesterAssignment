@@ -220,5 +220,28 @@ img {
 table {
     font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
+    border-collapse: collapse;
 }
+
+  
+  tr {
+    border-bottom: 1px solid var(--light-purple);
+  }
+
+  tr:last-child {
+    border-bottom: 0px;
+  }
+  
+  td {
+    padding: 8px;
+  }
+
+  .p-bold {
+    padding: 0.5rem 2rem 0.5rem 0;
+  }
+
+  .p-bold-2 {
+    padding: 0.5rem 0rem 0.5rem 2rem;
+    font-weight: 700;
+  }
 
