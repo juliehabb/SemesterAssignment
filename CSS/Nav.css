@@ -3,7 +3,7 @@
 
 .section-navigation {
     width: 100%;
-    background-color: var(--background-blue-2);
+    background-color: var(--background);
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -23,7 +23,7 @@ nav {
 
 header {
     position: relative;
-    background: var(--background-blue-2);
+    background: var(--background);
     color: var(--main-blue);
     font-size: 1rem;
 }
@@ -37,6 +37,7 @@ header {
 .logo {
     padding-left: 2rem ;
     width: 5rem;
+    color: black;
 }
 
 /*Links*/
@@ -105,7 +106,7 @@ nav a .link-contactus-h::before {
     #menu-checkbox:checked ~ nav {
         display: flex;
         flex-direction: column;
-        background: var(--background-blue-2);
+        background: var(--background);
         width: 100%;
         height: 100vh;
         align-items: flex-start;
