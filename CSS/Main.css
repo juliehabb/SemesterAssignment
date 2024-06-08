@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    background-color: #F0FBFF;
     height: 100%;
     min-height: 100vh;
     display: flex;
@@ -34,14 +34,13 @@ main {
 /*Colors*/
 
 :root {
-    --main-blue: #2b2b2b;
-    --card: #ffffff;
+    --main-blue: #007A94;
     --secondary-purple:#D688E9;
     --secondary-purple-h: #c77bda;
-    --secondary-blue: #d231c0;
+    --secondary-blue: #2ECDF0;
     --secondary-blue-h: #27c0e2;
     --background-purple: #F5E8F8;
-    --background: #f5e1e3;
+    --background-blue: #DAF5FB;
     --background-blue-2: #F0FBFF;
     --dark-purple: #9C3FB3;
     --light-purple: #E6B8F1;

@@ -1,0 +1,16 @@
+@import url(Main.css);
+
+/*Sections*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-block {
+    padding-bottom: 4rem;
+}
+
+.block {
+    padding-bottom: 3rem;
+}
